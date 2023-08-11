@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+header {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    color: #fff;
+}
+.logo img{
+    width: 150px;
+    margin-left: 10px;
+}
+.nav{
+    font-size: 14px;
+    font-family: "Roboto",Sans-serif;
+    font-style: inherit;
+    position: absolute;
+    padding-right: 7px;
+    text-transform: uppercase;
+    line-height: 15px;
+    letter-spacing: 1.0px;
+    top: 7%;
+    left: 25%;
+    margin-top: 32px;
+}
+.icon {
+    position: absolute;
+    top: 6%;
+    right: 24%;
+    margin-top: 32px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav li {
+    margin-right: 52px;
+}
+.region{
+    font-size: 13px;
+    font-family: "Roboto",Sans-serif;
+    font-style: inherit;
+    position: absolute;
+    padding-right: 15px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    top: 5%;
+    right: 6%;
+    margin-top: 32px;
+}
+#home {
+    background: url(bg-rucika.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.text {
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: start;*/
+    padding-left: 500px;
+    padding-top: 200px;
+    color: #fff;
+}
